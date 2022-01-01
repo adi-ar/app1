@@ -1,0 +1,9 @@
+{% extends "app1/base.html" %}
+{% block navbarleft %}
+    <a class="nav-item nav-link" href="{% url 'app1-home' %}">Larks</a>
+    <a class="nav-item nav-link" href="{% url 'app1-about' %}">About</a>
+    <a class="nav-item nav-link" href="{% url 'app1-map' %}" target="_blank">Map</a>
+{% endblock navbarleft %}
+{% block content %}
+    <h2> Proj01 About </h2>
+{%endblock content %}
